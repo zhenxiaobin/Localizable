@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		1CCA74831F7F2DE7005BDCAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA74821F7F2DE7005BDCAB /* AppDelegate.swift */; };
-		1CCA74851F7F2DE7005BDCAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA74841F7F2DE7005BDCAB /* ViewController.swift */; };
-		1CCA74881F7F2DE7005BDCAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA74861F7F2DE7005BDCAB /* Main.storyboard */; };
 		1CCA748A1F7F2DE7005BDCAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA74891F7F2DE7005BDCAB /* Assets.xcassets */; };
 		1CCA748D1F7F2DE7005BDCAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA748B1F7F2DE7005BDCAB /* LaunchScreen.storyboard */; };
 		1CCA74981F7F2DE7005BDCAB /* LocalizableInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA74971F7F2DE7005BDCAB /* LocalizableInfoTests.swift */; };
 		1CCA74A31F7F2DE7005BDCAB /* LocalizableInfoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA74A21F7F2DE7005BDCAB /* LocalizableInfoUITests.swift */; };
+		1CCA74B11F7F3371005BDCAB /* XBMainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA74B01F7F3371005BDCAB /* XBMainTabBarVC.swift */; };
+		1CCA74B31F7F33D8005BDCAB /* XBHomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA74B21F7F33D8005BDCAB /* XBHomePageVC.swift */; };
+		1CCA74B51F7F33EB005BDCAB /* XBMyInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA74B41F7F33EB005BDCAB /* XBMyInfoVC.swift */; };
+		1CCA74BB1F7F6BD0005BDCAB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA74BD1F7F6BD0005BDCAB /* InfoPlist.strings */; };
+		1CCA74BF1F7F6BDA005BDCAB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA74C11F7F6BDA005BDCAB /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +39,6 @@
 /* Begin PBXFileReference section */
 		1CCA747F1F7F2DE7005BDCAB /* LocalizableInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizableInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CCA74821F7F2DE7005BDCAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1CCA74841F7F2DE7005BDCAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1CCA74871F7F2DE7005BDCAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CCA74891F7F2DE7005BDCAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CCA748C1F7F2DE7005BDCAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CCA748E1F7F2DE7005BDCAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +48,15 @@
 		1CCA749E1F7F2DE7005BDCAB /* LocalizableInfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizableInfoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CCA74A21F7F2DE7005BDCAB /* LocalizableInfoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableInfoUITests.swift; sourceTree = "<group>"; };
 		1CCA74A41F7F2DE7005BDCAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CCA74B01F7F3371005BDCAB /* XBMainTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XBMainTabBarVC.swift; sourceTree = "<group>"; };
+		1CCA74B21F7F33D8005BDCAB /* XBHomePageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XBHomePageVC.swift; sourceTree = "<group>"; };
+		1CCA74B41F7F33EB005BDCAB /* XBMyInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XBMyInfoVC.swift; sourceTree = "<group>"; };
+		1CCA74B61F7F6AFC005BDCAB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		1CCA74BC1F7F6BD0005BDCAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1CCA74BE1F7F6BD3005BDCAB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		1CCA74C01F7F6BDA005BDCAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1CCA74C21F7F6BDB005BDCAB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		1CCA74C61F7F76E5005BDCAB /* LocalizedUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +108,11 @@
 			isa = PBXGroup;
 			children = (
 				1CCA74821F7F2DE7005BDCAB /* AppDelegate.swift */,
-				1CCA74841F7F2DE7005BDCAB /* ViewController.swift */,
-				1CCA74861F7F2DE7005BDCAB /* Main.storyboard */,
-				1CCA74891F7F2DE7005BDCAB /* Assets.xcassets */,
-				1CCA748B1F7F2DE7005BDCAB /* LaunchScreen.storyboard */,
+				1CCA74B01F7F3371005BDCAB /* XBMainTabBarVC.swift */,
+				1CCA74B21F7F33D8005BDCAB /* XBHomePageVC.swift */,
+				1CCA74B41F7F33EB005BDCAB /* XBMyInfoVC.swift */,
 				1CCA748E1F7F2DE7005BDCAB /* Info.plist */,
+				1CCA74C41F7F75FD005BDCAB /* Source */,
 			);
 			path = LocalizableInfo;
 			sourceTree = "<group>";
@@ -125,6 +135,26 @@
 			path = LocalizableInfoUITests;
 			sourceTree = "<group>";
 		};
+		1CCA74C41F7F75FD005BDCAB /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1CCA74C51F7F764A005BDCAB /* Utils */,
+				1CCA748B1F7F2DE7005BDCAB /* LaunchScreen.storyboard */,
+				1CCA74891F7F2DE7005BDCAB /* Assets.xcassets */,
+				1CCA74C11F7F6BDA005BDCAB /* Localizable.strings */,
+				1CCA74BD1F7F6BD0005BDCAB /* InfoPlist.strings */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		1CCA74C51F7F764A005BDCAB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1CCA74C61F7F76E5005BDCAB /* LocalizedUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +162,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CCA74A71F7F2DE7005BDCAB /* Build configuration list for PBXNativeTarget "LocalizableInfo" */;
 			buildPhases = (
+				1CCA74C31F7F742A005BDCAB /* ShellScript */,
 				1CCA747B1F7F2DE7005BDCAB /* Sources */,
 				1CCA747C1F7F2DE7005BDCAB /* Frameworks */,
 				1CCA747D1F7F2DE7005BDCAB /* Resources */,
@@ -214,6 +245,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 1CCA74761F7F2DE7005BDCAB;
 			productRefGroup = 1CCA74801F7F2DE7005BDCAB /* Products */;
@@ -233,8 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CCA748D1F7F2DE7005BDCAB /* LaunchScreen.storyboard in Resources */,
+				1CCA74BF1F7F6BDA005BDCAB /* Localizable.strings in Resources */,
+				1CCA74BB1F7F6BD0005BDCAB /* InfoPlist.strings in Resources */,
 				1CCA748A1F7F2DE7005BDCAB /* Assets.xcassets in Resources */,
-				1CCA74881F7F2DE7005BDCAB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +287,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1CCA74C31F7F742A005BDCAB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# -*- coding: utf-8 -*\n# Localizable.strings文件路径\nlocalizableFile=\"${SRCROOT}/${PROJECT_NAME}/Source/en.lproj/Localizable.strings\"\n#  生成的swift文件路径\nlocalizedFile=\"${SRCROOT}/${PROJECT_NAME}/Source/Utils/LocalizedUtils.swift\"\nawk '{print $1,$2,$1\";\"}' \"${localizableFile}\" > \"${localizableFile}.tmp\"\n# 将localizable.strings中的文本转为swift格式的常量，存入一个临时文件\nsed \"s/^\\\"/ static var localized_/g\" \"${localizableFile}.tmp\" | sed \"s/\\\" = \\\"/: String { return \\\"/g\" | sed \"s/;$/.localized }/g\" > \"${localizedFile}.tmp\"\n# 先将localized作为计算属性输出到目标文件\necho -e \"import Foundation\\n\\nextension String {\\n  var localized: String { return NSLocalizedString(self, comment: self) }\" > \"${localizedFile}\"\n# 再将临时文件中的常量增量输出到目标文件\ncat \"${localizedFile}.tmp\" >> \"${localizedFile}\"\n# 最后增量输出一个\"}\"到目标文件，完成输出\necho -e \"\\n}\" >> \"${localizedFile}\"\n# 删除临时文件\nrm \"${localizableFile}.tmp\"\nrm \"${localizedFile}.tmp\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1CCA747B1F7F2DE7005BDCAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CCA74851F7F2DE7005BDCAB /* ViewController.swift in Sources */,
 				1CCA74831F7F2DE7005BDCAB /* AppDelegate.swift in Sources */,
+				1CCA74B31F7F33D8005BDCAB /* XBHomePageVC.swift in Sources */,
+				1CCA74B11F7F3371005BDCAB /* XBMainTabBarVC.swift in Sources */,
+				1CCA74B51F7F33EB005BDCAB /* XBMyInfoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,20 +347,31 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1CCA74861F7F2DE7005BDCAB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1CCA74871F7F2DE7005BDCAB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1CCA748B1F7F2DE7005BDCAB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1CCA748C1F7F2DE7005BDCAB /* Base */,
+				1CCA74B61F7F6AFC005BDCAB /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1CCA74BD1F7F6BD0005BDCAB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CCA74BC1F7F6BD0005BDCAB /* en */,
+				1CCA74BE1F7F6BD3005BDCAB /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1CCA74C11F7F6BDA005BDCAB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CCA74C01F7F6BDA005BDCAB /* en */,
+				1CCA74C21F7F6BDB005BDCAB /* zh-Hans */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -319,6 +381,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -376,6 +439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -429,6 +493,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 568K4VHFTK;
 				INFOPLIST_FILE = LocalizableInfo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hkrt.LocalizableInfo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +509,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 568K4VHFTK;
 				INFOPLIST_FILE = LocalizableInfo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hkrt.LocalizableInfo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

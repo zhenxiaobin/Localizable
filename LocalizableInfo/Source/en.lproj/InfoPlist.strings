@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  LocalizableInfo
+
+  Created by 甄晓彬 on 2017/9/30.
+  Copyright © 2017年 甄晓彬. All rights reserved.
+*/
+CFBundleDisplayName = "Localizable App Name";
